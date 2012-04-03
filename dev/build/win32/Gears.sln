@@ -1,24 +1,17 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
-
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gears", "Gears.vcxproj", "{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 11
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Gears", "Gears.vcxproj", "{58321B75-07E0-7085-4811-546A0700E4E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug HW|Win32 = Debug HW|Win32
-		Debug|Win32 = Debug|Win32
 		Release HW|Win32 = Release HW|Win32
-		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Debug HW|Win32.ActiveCfg = Debug HW|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Debug HW|Win32.Build.0 = Debug HW|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Debug|Win32.Build.0 = Debug|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Release HW|Win32.ActiveCfg = Release HW|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Release HW|Win32.Build.0 = Release HW|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Release|Win32.ActiveCfg = Release|Win32
-		{E1B421D9-94B0-42CD-AB6A-025BC70CAD6A}.Release|Win32.Build.0 = Release|Win32
+		{58321B75-07E0-7085-4811-546A0700E4E3}.Debug HW|Win32.ActiveCfg = Debug HW|Win32
+		{58321B75-07E0-7085-4811-546A0700E4E3}.Debug HW|Win32.Build.0 = Debug HW|Win32
+		{58321B75-07E0-7085-4811-546A0700E4E3}.Release HW|Win32.ActiveCfg = Release HW|Win32
+		{58321B75-07E0-7085-4811-546A0700E4E3}.Release HW|Win32.Build.0 = Release HW|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
