@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<claw-application format-revision="0.3">
+
+  <platform name='common'>
+    <target type="executable" name="Gears"/>
+    <title>
+      <long_caption>Gears</long_caption>
+      <caption>Gears</caption>
+      <short_caption>Gears</short_caption>
+    </title>
+
+<!--
+    <gles2/>
+-->
+
+<!--
+    <cpp>
+      <preprocessor>
+        <macro name="USE_SOFTWARE_RENDERING"/>
+        <macro name="BUILD" value="2"/>
+      </preprocessor>
+    </cpp>
+-->
+
+    <vendor name="Gamelion Studios"/>
+    <version major="0" minor="0" build="1"/>
+
+    <include-path directory="../src"/>
+
+    <sources>
+      <directory name="../src/Gears">
+        <file name="Application.cpp"/>
+      </directory>
+    </sources>
+
+    <resources>
+<!--
+      <file name="data.pak" source="../paks" target=""/>
+-->
+    </resources>
+  </platform>
+
+<!--
+  <platform name='symbian'>
+    <uid3>A0000001</uid3>
+    <vendorid>0</vendorid>
+
+    <restrict>
+      <device uid="2000249D" name="RM-412"/>
+      <device uid="200025C2" name="RM-413"/>
+    </restrict>
+
+    <backup>
+      <directory name="\"/>
+    </backup>
+
+    <cpp>
+      <preprocessor>
+        <macro name="NDEBUG"/>
+      </preprocessor>
+    </cpp>
+
+    <mmp-command>EPOCSTACKSIZE 0xA000</mmp-command>
+    <mmp-command>EPOCHEAPSIZE 0x100000 0x8000000</mmp-command>
+    <mmp-command>ALWAYS_BUILD_AS_ARM</mmp-command>
+    <mmp-command>OPTION ARMCC -Otime - -signed-chars</mmp-command>
+    <mmp-command>OPTION gcce -O3 -fsigned-char -ffast-math -fsingle-precision-constant -fomit-frame-pointer -funit-at-a-time</mmp-command>
+
+    <heap size="12*1024*1024"/>
+
+    <icons directory=".." >
+      <svg file="icon.svg" />
+    </icons>
+
+  </platform>
+-->
+
+<!--
+  <platform name='psp'>
+    <product>
+      <code>NPEZ</code>
+      <id>00001</id>
+      <content>EP4097-NPEZ00001_00-APPLICATIONNAME0</content>
+    </product>
+    <icons directory=".">
+      <save file="save.png"/>
+      <menu file="menu.png"/>
+      <content file="content.png"/>
+      <background file="optional.png"/>
+    </icons>
+    <parentallevel>2</parentallevel>
+  </platform>
+-->
+
+<!--
+  <platform name='iphone'>
+    <executable_dir>Gears.app</executable_dir>
+    <orientation>landscape</orientation>
+    <frameworks>
+      <framework name="StoreKit.framework" />
+    </frameworks>
+    <icons directory="." prerendered="false">
+      <icon file="icon57.png" />
+      <iconRetina file="icon114.png" />
+      <iconIpad file="icon72.png" />
+    </icons>
+    <sdk version="4.1" />
+    <device family="universal" />
+    <InfoPlist key="UISupportedExternalAccessoryProtocols">
+<![CDATA[
+        <array>
+          <string>com.gamelion.externalaccessory</string>
+        </array>
+]]>
+    </InfoPlist>
+        <InfoPlist key="UIStatusBarHidden">
+<![CDATA[
+        <true/>
+]]>
+    </InfoPlist>
+  </platform>
+-->
+
+<!--
+  <platform name="maemo">
+    <icon48 name="icon48.png"/>
+    <icon64 name="icon64.png"/>
+  </platform>
+-->
+
+<!--
+  <platform name="android">
+    <package name="com.gamelion.testapp"/>
+    <icon name="icon72.png"/>
+    <orientation>landscape</orientation>
+    <install-location>preferExternal</install-location>
+    <key store="gamelion-szczecin-android-market.keystore" alias="gamelion-szczecin-android-market" />
+    <video orientation="landscape">
+      <file name="movie.mp4" source="../res"/>
+    </video>
+    <inapp>
+      <service class="com.gamelion.inapp.BillingService"/>
+      <receiver class="com.gamelion.inapp.BillingReceiver"/>
+    </inapp>
+    <gamecenter />
+    <tapjoy />
+    <armv6 />
+  </platform>
+-->
+
+<!--
+  <platform name="macos">
+    <icon name="IconSet.icns" directory="../icons" />
+    <frameworks>
+      <framework name="OpenCL.framework" />
+    </frameworks>
+  </platform>
+-->
+
+</claw-application>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?><Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" xmlns:file="java.io.File" ToolsVersion="4.0"><ItemGroup><Filter Include="Gears"/>
+<Filter Include="Gears"/></ItemGroup><ItemGroup><ClCompile Include="..\..\src\Gears\Application.cpp"><Filter>Gears</Filter></ClCompile></ItemGroup><ItemGroup><ClInclude Include="..\..\src\Gears\Application.hpp"><Filter>Gears</Filter></ClInclude></ItemGroup></Project>
