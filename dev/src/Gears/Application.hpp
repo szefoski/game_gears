@@ -2,6 +2,7 @@
 #define __APPLICATION_HPP__
 
 #include "claw/application/Application.hpp"
+#include "StringTools.h"
 
 namespace Gears
 {
@@ -22,6 +23,9 @@ namespace Gears
         void OnTouchDown( int x, int y, int button );
         void OnTouchUp( int x, int y, int button );
         void OnTouchMove( int x, int y, int button );
+
+    private:
+        IngamePtr m_ingame;
     };
 
 }

@@ -25,7 +25,7 @@ namespace Gears
                 if ( UnitTest() )
                 {
                     CLAW_MSG("StringTools SUCCED: " << g_stringToWStringConvert << "  " << g_replaceTag);
-                    //return;
+                    return;
                 }
             }
         }
